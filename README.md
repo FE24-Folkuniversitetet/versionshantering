@@ -41,7 +41,8 @@ git remote add origin https://github.com/your-user-name/your-repo-name.git
 ```
 
 ### `git push`
-Skickar alla commits du har gjort till GitHub. Innan du har pushat finns dina commits bara *lokalt*, alltså på din dator.
+Skickar alla commits du har gjort till GitHub. Innan du har pushat finns dina commits bara *lokalt*, alltså på din dator. 
+Första gången behöver du använda git push -u origin main för att pusha till repot i GitHub. 
 
 ### `git fetch`
 Ta reda på *om* det finns nya commits på GitHub. Om du skriver `git status` efteråt så får du veta om du är "up to date" eller om det finns nya uppdateringar som du behöver hämta.
