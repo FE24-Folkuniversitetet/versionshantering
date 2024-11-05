@@ -20,7 +20,7 @@ Finns i två versioner:
 git add file1 folder1
 
 # Lägga till allt i repots mapp som inte är committat.
-git add --all
+git add .
 ```
 
 ### `git commit -m "Meddelande"`
@@ -133,7 +133,7 @@ git status
 Git har märkt att Ann har gjort ändringar i mappen. Ann lägger till filerna i *staging area* och gör en *commit*.
 ```bash
 # Lägga till ändringarna
-git add --all
+git add .
 # Eller: git add index.html script.js
 
 git status
@@ -144,7 +144,7 @@ git status
 #       new file:   script.js
 #       modified:   index.html
 
-# Ok, då kör vi
+# Ok, då kör vi! Se först till att du står i rätt mapp/branch i Bash (så att du pushar till rätt branch på GitHub)
 git commit -m "Uppdate index.html and added script.js"
 git push
 # Pusha commit så att Zeke kan hämta den från GitHub om han behöver
